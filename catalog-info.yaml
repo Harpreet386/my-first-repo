@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-repo
+  description: A simple project repository for Backstage integration
+  tags:
+    - backend
+    - web
+spec:
+  type: service
+  lifecycle: production
+  owner: team-x
+  links:
+    - url: 'https://github.com/Harpreet386/my-first-repo'
+      title: GitHub Repo
